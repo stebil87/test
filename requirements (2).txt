@@ -1,0 +1,6 @@
+streamlit
+pypdf
+reportlab
+pillow
+streamlit-drawable-canvas
+supabase
