@@ -64,7 +64,7 @@ document.addEventListener('DOMContentLoaded', function() {
 try:
     st.image("1908_Group_Black.png", width=180)
 except Exception:
-    st.markdown("**1908 Group SA**")
+    st.markdown("**Nome azienda**")
 
 def sez(t): st.markdown(f'<div class="sez">{t}</div>', unsafe_allow_html=True)
 
@@ -108,7 +108,7 @@ PERMESSI_CON_DATE    = {"G (Frontaliere)", "Solo notifica",
 # PANNELLO MANAGER
 # ════════════════════════════════════════════════════════
 if st.session_state.manager:
-    st.title("Pannello Manager – 1908 Group SA")
+    st.title("Pannello Manager – Nome azienda")
     st.markdown("---")
 
     if st.button("Esci dal pannello manager"):
@@ -975,5 +975,5 @@ elif st.session_state.step == 6:
 
 elif st.session_state.step == 7:
     st.success("### Compilazione completata!")
-    st.markdown("I tuoi documenti sono stati ricevuti da 1908 Group SA.")
+    st.markdown("I tuoi documenti sono stati ricevuti da Nome azienda.")
     st.markdown("Puoi chiudere questa pagina.")
