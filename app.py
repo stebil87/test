@@ -9,7 +9,7 @@ from storage import (salva_compilazione, lista_compilazioni, get_pdf,
 import config
 
 st.set_page_config(
-    page_title="1908 Group SA",
+    page_title="Nome azienda",
     page_icon="1908_Group_Black.png",
     layout="centered"
 )
